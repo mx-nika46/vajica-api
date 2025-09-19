@@ -7,6 +7,7 @@ dr=[]
 print(drzave)
 # 1: Poišči državo z največ sosedi (borders)
 # Namig: Nekatere države so otoki in nimajo ključa "borders"!
+#preberemo vse države iz all linka v seznam
 for d in drzave:
     dr.append(d.get("name").get("official"))
 print(dr)
